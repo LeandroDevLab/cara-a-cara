@@ -92,7 +92,7 @@ header {
   display: none;
   position: absolute;
   width: 80%;
-  height: 80%;
+  height: auto;
   background-color: aliceblue;
   z-index: 2;
   top: 50%;
@@ -122,5 +122,14 @@ header {
 @media (max-width: 800px) {
   .titulo_jogo {
     width: 90%;
+  }
+
+  .caixa_de_escolha {
+    width: 90%;
+  }
+  .escolha {
+    width: 60px;
+    height: 60px;
+    font-size: 3rem;
   }
 }
